@@ -52,7 +52,7 @@ vincule o seu projeto ao github como descrito na imagem e escolha a branch para 
 
 **Caso de erro no build APAGAR O ARQUIVO package-lock.json tambem e refazer o build.**
 
-![enter image description here](blob:https://imgur.com/a787f09d-ea91-4761-8b1c-2a713022d24e)
+![enter image description here](https://i.imgur.com/z80boId.png)
 
 ## Caso de erro persistir
 
