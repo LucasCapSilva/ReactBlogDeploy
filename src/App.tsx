@@ -16,7 +16,7 @@ import {Provider} from 'react-redux';
 import store from './store/store';
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+// integração teste
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
       <Navbar />
       <Switch>
         <div style={{ minHeight: '100vh' }}>
-
+          
           <Route exact path='/'>
             <Login />
           </Route>
