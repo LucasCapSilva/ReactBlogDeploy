@@ -49,6 +49,7 @@ vincule o seu projeto ao github como descrito na imagem e escolha a branch para 
 
 ![enter image description here](https://i.imgur.com/4WZz5KC.png)
 
+## Caso de erro persistir.
 
 **Caso de erro no build APAGAR O ARQUIVO package-lock.json tambem e refazer o build.**
 
@@ -56,7 +57,7 @@ vincule o seu projeto ao github como descrito na imagem e escolha a branch para 
 
 ## Caso de erro persistir.
 
-faça
+
 
 **Colocar o substitua o codigo no package.json**
 
