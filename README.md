@@ -60,7 +60,7 @@ vincule o seu projeto ao github como descrito na imagem e escolha a branch para 
 
 
 **Colocar o substitua o codigo no package.json**
-
+```
 "scripts": {
      "dev": "react-scripts start",
      "start": "serve -s build",
@@ -69,13 +69,15 @@ vincule o seu projeto ao github como descrito na imagem e escolha a branch para 
      "eject": "react-scripts eject",
      "heroku-postbuild": "npm run build"
 }
+```
+
 
 **E execute o comando no terminal npm install serve --s**
 
 **Suba a alteração no Github e execute o deploy novamente no heroku**
 
 ### Para utilizar a aplicação de forma local para manutenção coloque o script anterior no package.json
-
+```
 ,
   "scripts": {
     "start": "react-scripts start",
@@ -83,5 +85,5 @@ vincule o seu projeto ao github como descrito na imagem e escolha a branch para 
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
+  ```
   **Execute npm install e npm start**
