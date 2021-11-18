@@ -49,4 +49,36 @@ vincule o seu projeto ao github como descrito na imagem e escolha a branch para 
 
 ![enter image description here](https://i.imgur.com/4WZz5KC.png)
 
+
 **Caso de erro no build APAGAR O ARQUIVO package-lock.json tambem e refazer o build.**
+
+![enter image description here](blob:https://imgur.com/a787f09d-ea91-4761-8b1c-2a713022d24e)
+
+## Caso de erro persistir
+
+**Colocar o substitua o codigo no package.json**
+
+"scripts": {
+     "dev": "react-scripts start",
+     "start": "serve -s build",
+     "build": "react-scripts build",
+     "test": "react-scripts test --env=jsdom",
+     "eject": "react-scripts eject",
+     "heroku-postbuild": "npm run build"
+}
+
+**E execute o comando no terminal npm install serve --s**
+
+**Suba a alteração no Github e execute o deploy novamente no heroku**
+
+### Para utilizar a aplicação de forma local para manutenção coloque o script anterior no package.json
+
+,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  
+  **Execute npm install e npm start**
